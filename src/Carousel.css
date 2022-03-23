@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "FactorA-Regular";
+    src: local("FactorA-Regular"),
+     url("./fonts/FactorA-Regular.woff") format("truetype");
+    font-weight: bold;
+    }
+
+.font-face-gm{
+    font-family: "FactorA-Regular" !important;
+    font-style: normal;
+font-weight: 600 !important;
+font-size: 18px !;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+letter-spacing: 0.01em;
+  }
+ 
+
+.slider{
+    margin-left: 100px;
+    margin-top: 1250px;
+    max-width:1000px;
+    height:100px;
+}
+
+.img-main{
+    position: absolute;
+    top:25px;
+    margin-left:10px;
+}
+
+.profile-review{
+    
+    background: #F5F5F5;
+border-radius: 2px;
+width: 650px !important;
+height: 309px;
+padding: 20px;
+margin-left: 1px;
+}
+
+.review-name{
+    position: absolute;
+    top:15px;
+    margin-left: 80px;
+    font-size: 30px;
+    
+}
+
+.text-review{
+    position: absolute;
+width: 971px;
+height: 155px;
+margin-top: 110px;
+max-width: 650px;
+
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 22px;
+/* or 157% */
+
+
+/* Main Text #333333 */
+
+color: #333333;
+}
+
+.date-of-review{
+    position: absolute;
+    margin-left:500px;
+}
+
+
+.move{
+    margin-left: 90px;
+}
+
+@media only screen and (max-width:450px){
+    .slider{
+        margin-top:1380px;
+        width:99%;
+        margin-left:10px;
+    }
+
+    .text-review{
+        max-width: 300px;
+        
+        
+    }
+    .date-of-review{
+        top:70px;
+        margin-left: 10px;
+    }
+
+    .profile-review{
+        height: 500px;
+        width:85% !important;
+    }
+
+    .next-slick-arrow{
+        color:red;
+        width:500px;
+    }
+    .review-name{
+        font-size: 25px;
+    }
+}

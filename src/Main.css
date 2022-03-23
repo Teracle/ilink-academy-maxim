@@ -1,0 +1,219 @@
+
+@font-face {
+    font-family: "FactorA-Regular";
+    src: local("FactorA-Regular"),
+     url("./fonts/FactorA-Regular.woff") format("truetype");
+    font-weight: bold;
+    }
+
+    @font-face {
+        font-family: "Gilroy";
+        src: local("Gilroy"),
+         url("./fonts/Gilroy-ExtraBold.otf") format("truetype");
+        font-weight: bold;
+        }
+      
+        .font-face-gilroy{
+          font-family: "Gilroy";
+          font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 18px;
+      /* identical to box height, or 100% */
+      
+      letter-spacing: 0.01em;
+        }
+      
+  
+    .font-face-gm{
+      font-family: "FactorA-Regular" !important;
+      font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+  
+  letter-spacing: 0.01em;
+    }
+    body{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+
+.background-image{
+    position: absolute;
+    left:60%;
+    top:5%;
+    width:40%;
+    z-index: -900;
+    
+}
+
+.welcome{
+    position: absolute;
+width: 1257px !important;
+height: 196px;
+left: 80px;
+top: 120px;
+
+font-family: 'Factor A TRIAL';
+font-style: normal;
+font-weight: 500;
+font-size: 104px !important;
+line-height: 148px !important;
+/* or 119% */
+
+letter-spacing: -0.0124em;
+
+/* White #FFFFFF */
+
+color: #FFFFFF;
+
+}
+
+.mypic-main{
+    position: absolute;
+    width: 400px;
+    height: 383px;
+    left: 80px;
+    top: 625px;
+    
+    border-radius: 2px;
+}
+
+.card-about-me{
+    position: absolute;
+width: 761px;
+height: 383px;
+left: 480px;
+top: 593px;
+
+/* White #FFFFFF */
+
+background: #FFFFFF;
+border-radius: 2px;
+}
+
+.myName{
+    position: absolute;
+width: 400px;
+height: 32px;
+left:50px;
+top:10px;
+
+font-family: 'Factor A-Regular';
+font-style: normal;
+font-weight: 700;
+font-size: 32px !important;
+line-height: 32px;
+/* identical to box height, or 100% */
+
+
+/* Purple #585CC6 */
+
+color: #585CC6;
+
+}
+
+.about-me{
+    position: absolute;
+    width: 111px;
+height: 24px;
+left: 52px;
+top:80px;
+
+
+
+}
+
+.male{
+    position: absolute;
+    top:80px;
+    left:220px;
+}
+
+
+.age{
+    position: absolute;
+width: 100px;
+height: 24px;
+
+top: 80px;
+left:420px;
+}
+
+.date-of-birth{
+    position: absolute;
+    color: #8A8A8A;
+    top:25px;
+    left:650px;
+    font-size: 18px !important;
+line-height: 24px;
+font-weight: 3 00;
+}
+
+.info-about-me{
+    position: absolute;
+    top:130px;
+    left:50px;
+    max-width: 700px;
+}
+
+@media only screen and (max-width:450px){
+    .welcome{
+        max-width: 400px;
+        left:10px;
+        font-size: 58px !important;
+        top:90px;
+        line-height: 70px !important;
+    }
+
+    .mypic-main{
+        top:400px;
+        width:100%;
+        left:10px;
+    }
+
+    .background-image{
+        left:75px;
+        width:500px;
+        top:-20px;
+        opacity: 1;
+    }
+    .card-about-me{
+        left:10px;
+        top:765px;
+        max-width: 350px;
+        display: block;
+        height: 500px;
+    }
+    .myName{
+        left:10px;  
+    }
+    .date-of-birth{
+        left:10px;
+        top:50px;
+    }
+    .about-me{
+        top:100px;
+        left:10px;
+    }
+    .male{
+        
+        top:100px;
+        left:200px;
+    }
+
+    .age{
+        left:10px;
+        top:140px;
+    }
+
+    .info-about-me{
+        top:185px;
+        left:10px;
+    }
+}
+
+  

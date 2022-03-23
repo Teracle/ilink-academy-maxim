@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './Header';
 import reportWebVitals from './reportWebVitals';
+import Main from './Main';
+import Reviews from './Reviews'
+import Footer from './Footer';
 
+import Carousel from './Carousel';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    
+    <Header />,
+    <Main/>,
+    <Reviews/>,
+    <Carousel/>,
+    <br/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

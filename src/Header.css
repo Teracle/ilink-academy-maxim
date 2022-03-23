@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy"),
+   url("./fonts/Gilroy-ExtraBold.otf") format("truetype");
+  font-weight: bold;
+  }
+
+  .font-face-gm{
+    font-family: "Gilroy";
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+
+
+letter-spacing: 0.01em;
+  }
+
+  
+
+.mypic{
+  width:3%;
+  border-radius:2px;
+  border-color: #585cc6;
+  margin: 15px 0px;
+
+}
+
+.name{
+  position: absolute;
+  top:38%;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+left:100px;
+
+/* Main Text #333333 */
+
+color: #333333;
+}
+
+.main-logo{
+  position: absolute;
+  top:20%;
+  margin-left: 40%;
+  width:5%;
+}
+
+ul{
+  list-style-type: none;
+  display: inline;
+ 
+}
+li{
+  display: inline;
+}
+
+
+.link{
+}
+
+.header{
+  background-color:#ffffff ;
+  position: absolute;
+  width:100%;
+  height:10%;
+  display: inline;
+}
+
+
+body{
+  background-color:#585cc6 ;
+}
+
+
+.panel{
+  position: absolute;
+  top:15%;
+  left:80%;
+  background: #585cc6;
+  border-radius: 2px;
+  width: 227px;
+height: 50px;
+}
+
+.panel:hover{
+  cursor: pointer;
+}
+
+.panel-text{
+  margin-top: 7%;
+  color:#ffffff;
+  font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+
+}
+
+.mobile-button{
+  position: absolute;
+  top:25%;
+  width:5%;
+  margin-left:80%;
+}
+
+
+
+
+@media only screen and (max-width:1400px){
+  .mypic{
+    width:3%;
+  }
+  .main-logo{
+    width:5%;
+  }
+}
+
+@media only screen and (max-width:840px){
+  .mypic{
+    width:5%;
+  }
+  .main-logo{
+    width:9%;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .mypic{
+    width:7%;
+  }
+
+  .main-logo{
+    width:11%;
+  }
+}
+
+@media only screen and (max-width:450px){
+  
+  .mypic{
+    width:11%;
+    margin-left:-20px;
+  }
+  .name{
+    margin-left: -25px;
+    margin-top: 3px;
+  }
+
+  .main-logo{
+    left:15px;
+    top:18px;
+    width:19%;
+  }
+  .mobile-button{
+    left:10px;
+    margin-right:20px;
+    width:12%;
+    top:20px;
+  }
+
+}
+
+
