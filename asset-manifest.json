@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ilink-academy-maxim/static/css/main.830226ce.css",
+    "main.css": "/ilink-academy-maxim/static/css/main.69f7e9d9.css",
     "main.js": "/ilink-academy-maxim/static/js/main.3f91c06c.js",
     "static/js/787.ed93ab44.chunk.js": "/ilink-academy-maxim/static/js/787.ed93ab44.chunk.js",
     "static/media/myPic.jpg": "/ilink-academy-maxim/static/media/myPic.fa1c12a1f80bedb8be41.jpg",
@@ -14,12 +14,12 @@
     "static/media/slick.ttf": "/ilink-academy-maxim/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ilink-academy-maxim/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ilink-academy-maxim/index.html",
-    "main.830226ce.css.map": "/ilink-academy-maxim/static/css/main.830226ce.css.map",
+    "main.69f7e9d9.css.map": "/ilink-academy-maxim/static/css/main.69f7e9d9.css.map",
     "main.3f91c06c.js.map": "/ilink-academy-maxim/static/js/main.3f91c06c.js.map",
     "787.ed93ab44.chunk.js.map": "/ilink-academy-maxim/static/js/787.ed93ab44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.830226ce.css",
+    "static/css/main.69f7e9d9.css",
     "static/js/main.3f91c06c.js"
   ]
 }
