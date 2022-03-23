@@ -1,3 +1,5 @@
+Project is published here: https://teracle.github.io/ilink-academy-maxim/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
