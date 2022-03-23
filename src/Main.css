@@ -185,7 +185,9 @@ font-weight: 3 00;
         left:10px;
         top:765px;
         display: block;
-        height: 520px !important;
+        height: 500px;
+        max-width: 340px;
+        max-height: 800px ;
     }
     .myName{
         left:10px;  
